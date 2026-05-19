@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software itself and the
+  associated publication.
+title: "Differential Privacy Strategies for Data Analytics in the Banking Sector"
+abstract: >-
+  Reproducible artifact for the paper "Differential Privacy Strategies for
+  Data Analytics in the Banking Sector". The repository implements the
+  private-data workflow (Local Differential Privacy via Direct Encoding)
+  and the private-model workflow (Central Differential Privacy via DP-SGD)
+  on two banking-related datasets: Bank Marketing (UCI) and IPBlock (Amazon
+  Fraud Dataset Benchmark).
+type: software
+authors:
+  - family-names: Espinosa
+    given-names: Daniela
+    affiliation: Universidad de los Andes
+  - family-names: Pérez
+    given-names: Juan F.
+    email: jf.perez33@uniandes.edu.co
+    affiliation: Universidad de los Andes
+  - family-names: Gauthier-Umaña
+    given-names: Valérie
+    affiliation: Universidad de los Andes
+license: MIT
+repository-code: "https://github.com/despinosaa/differential-privacy-data-analysis"
+keywords:
+  - differential privacy
+  - machine learning
+  - banking
+  - data privacy
+  - DP-SGD
+  - local differential privacy
+preferred-citation:
+  type: article
+  title: "Differential Privacy Strategies for Data Analytics in the Banking Sector"
+  authors:
+    - family-names: Espinosa
+      given-names: Daniela
+    - family-names: Pérez
+      given-names: Juan F.
+    - family-names: Gauthier-Umaña
+      given-names: Valérie
+  journal: "Information Sciences"
+  year: 2026
+  doi: "<TODO>"

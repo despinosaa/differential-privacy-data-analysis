@@ -1,0 +1,81 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================================================
+# Virtual environments (this project uses three, see README)
+# =========================================================
+.venv-cdp/
+.venv-ldp/
+.venv-fdb/
+.venv/
+.env/
+env/
+venv/
+env.bak/
+
+# =========================================================
+# Build / distribution
+# =========================================================
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+
+# =========================================================
+# Jupyter
+# =========================================================
+.ipynb_checkpoints/
+*.bak
+
+# =========================================================
+# IDEs and editors
+# =========================================================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# =========================================================
+# OS
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Logs and temporary files
+# =========================================================
+logs/
+*.log
+*.tmp
+
+# =========================================================
+# Generated experiment outputs (kept untracked; placeholders
+# are provided via .gitkeep files in the corresponding dirs)
+# =========================================================
+BankMarketing/figures/*
+BankMarketing/results/*
+FraudDetection/figures/*
+FraudDetection/results/*
+!BankMarketing/figures/.gitkeep
+!BankMarketing/results/.gitkeep
+!FraudDetection/figures/.gitkeep
+!FraudDetection/results/.gitkeep
+
+# =========================================================
+# Intermediate processed data (regenerate from raw via the
+# notebook pipeline; raw/ is tracked)
+# =========================================================
+BankMarketing/data/processed/*
+!BankMarketing/data/processed/.gitkeep
+
+# =========================================================
+# Poetry (not used here, but excluded if anyone adds it)
+# =========================================================
+poetry.lock
