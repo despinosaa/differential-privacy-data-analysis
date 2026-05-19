@@ -4,7 +4,7 @@ Reproducible artifact for the paper:
 
 > **Espinosa, D., Pérez, J. F., & Gauthier-Umaña, V.**
 > *Differential Privacy Strategies for Data Analytics in the Banking Sector.*
-> Information Sciences, 2026. DOI: `<TODO>`
+> Information Sciences, 2026. DOI: [10.1016/j.ins.2026.123606](https://doi.org/10.1016/j.ins.2026.123606)
 
 This repository implements two privacy-preserving workflows on two
 banking-related datasets:
@@ -214,7 +214,7 @@ If you use this artifact, please cite the paper:
   author  = {Espinosa, Daniela and P{\'e}rez, Juan F. and Gauthier-Uma{\~n}a, Val{\'e}rie},
   journal = {Information Sciences},
   year    = {2026},
-  doi     = {<TODO>}
+  doi     = {10.1016/j.ins.2026.123606}
 }
 ```
 
