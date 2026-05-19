@@ -1,0 +1,5 @@
+BankMarketing/figures/**
+BankMarketing/results/**
+FraudDetection/figures/**
+FraudDetection/results/**
+!**/.gitkeep
